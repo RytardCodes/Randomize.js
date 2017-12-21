@@ -10,7 +10,7 @@ Randomizes an Array or an Integer, still in progress!
 ```js
 const randomize = require('randomize.js'); // Require the Package
 
-var randomNumbers = randomize.randomizeNumbers(10); // Choose a random number from 0 - 10
+var randomNumbers = randomize.randomizeNumber(10); // Choose a random number from 0 - 10
 
 console.log(randomNumbers); // Log the Chosen Number
 ```
