@@ -59,3 +59,22 @@ exports.randomizeArray = function(array) {
 
     return(randomized);
 };
+
+/**
+ *
+ * @param {string} Must be strings Only.
+ * @example
+ * reverseString('hello');
+ */
+
+exports.reverseString = function(string) {
+    if (typeof string !== 'string') {
+        throw new Error('Given Parameter must be a String!');
+    } else {
+        var splitted = string.split(''); // Splits the Given String, (e.g ['h', 'e', 'l', 'l', 'o']);
+        var reversed = splitted.reverse(); // Reverses the Array
+        var joined = reversed.join(''); // Joins it, so it will return: 'olleh'
+        
+        return joined;
+    }
+};
