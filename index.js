@@ -62,7 +62,7 @@ exports.randomizeArray = function(array) {
 
 /**
  *
- * @param {string} Must be strings Only.
+ * @param {string} text Must be strings Only.
  * @example
  * reverseString('hello');
  */
